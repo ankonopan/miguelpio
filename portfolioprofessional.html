@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Miguel Pio Professional Portfolio</title>
+	<link media="screen" rel="stylesheet" href="colorbox/example5/colorbox.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="colorbox/colorbox/jquery.colorbox-min.js" type="text/javascript"></script>
+	<script>
+		$(document).ready(function(){
+			//Examples of how to assign the ColorBox event to elements
+			$(".group1").colorbox({rel:'group1'});
+			$(".group2").colorbox({rel:'group2', transition:"fade"});
+			$(".group3").colorbox({rel:'group3', transition:"none", width:"80%", height:"80%"});
+			$(".group4").colorbox({rel:'group4', slideshow:true});
+			$(".ajax").colorbox();
+			$(".youtube").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+			$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+			$(".inline").colorbox({inline:true, width:"50%"});
+			$(".callbacks").colorbox({
+				onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+				onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+				onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+				onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+				onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+			});
+			
+			//Example of preserving a JavaScript event for inline calls.
+			$("#click").click(function(){ 
+				$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+				return false;
+			});
+		});
+	</script>
+<style type="text/css">
+<!--
+#apDiv1 {
+	position:absolute;
+	left:248px;
+	top:98px;
+	width:529px;
+	height:67px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:412px;
+	top:35px;
+	width:402px;
+	height:19px;
+	z-index:1;
+}
+#apDiv3 {
+	position:absolute;
+	left:361px;
+	top:212px;
+	width:135px;
+	height:125px;
+	z-index:1;
+}
+-->
+</style>
+
+<style type="text/css">
+<!--
+#apDiv5 {
+	position:absolute;
+	left:857px;
+	top:168px;
+	width:401px;
+	height:31px;
+	z-index:2;
+}
+-->
+</style>
+
+<link href="miguelpiocss.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="professionalcontainer">
+  <div id="topbanner">
+    <div align="center"><img src="image/topbanner.gif" alt="Miguel Pio Banner" width="750" height="70" /></div>
+  </div>
+  <div id="dropdownmenu">
+    <ul id="MenuBar2" class="MenuBarHorizontal">
+      <li><a href="index.html" title="Miguel Pio">home</a> </li>
+      <li><a href="resume.html" title="Resume">resume</a>      </li>
+      <li><a href="portfolio.html" title="Porfolio" class="MenuBarItemSubmenu">portfolio</a>
+        <ul>
+          <li><a href="portfoliostudent.html" title="Student Portfolio">student</a></li>
+          <li><a href="portfolioprofessional.html" title="Professional Portfolio">professional</a></li>
+          </ul>
+      </li>
+      <li><a href="contact.html" title="Contact">contact</a></li>
+    </ul>
+  </div>
+  <p>&nbsp;</p>
+  <div id="title">
+    <div align="center">professional work</div>
+  </div>
+  <div id="professionalportfolio">
+    <table width="600" border="0" cellspacing="10">
+      <tr>
+        <th scope="col"><div align="center"><a class="group3" href="image/work/01.1.gif" title="Boundary Survey"><img src="image/workthumbnails/01.1thumbnail.gif" alt="Boundary Survey" /></a></div></th>
+        <th scope="col"><a class="group3" href="image/work/02.1.gif" title="ALTA Survey"><img src="image/workthumbnails/02.1thumbnail.gif" alt="ALTA Survey" /></a></th>
+        <th scope="col"><a class="group3" href="image/work/02.2.gif" title="ALTA Survey"><img src="image/workthumbnails/02.2thumbnail.gif" alt="ALTA Survey" /></a></th>
+        <th scope="col"><a class="group3" href="image/work/03.1.gif" title="AsBuilt Survey"><img src="image/workthumbnails/03.1thumbnail.gif" alt="AsBuilt Survey" /></a></th>
+        <th scope="col"><a class="group3" href="image/work/03.2.gif" title="AsBuilt Survey"><img src="image/workthumbnails/03.2thumbnail.gif" alt="AsBuilt Survey" /></a></th>
+        <th scope="col"><a class="group3" href="image/work/04.1.gif" title="Waiver of Plat"><img src="image/workthumbnails/04.1thumbnail.gif" alt="Waiver of Plat" /></a></th>
+      </tr>
+      <tr>
+        <td><div align="center"><a class="group3" href="image/work/04.2.gif" title="Waiver of Plat"><img src="image/workthumbnails/04.2thumbnail.gif" alt="Waiver of Plat" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/05.1.gif" title="Topographic Survey"><img src="image/workthumbnails/05.1thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/05.2.gif" title="Topographic Survey"><img src="image/workthumbnails/05.2thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/05.3.gif" title="Topographic Survey"><img src="image/workthumbnails/05.3thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/06.1.gif" title="Topographic Survey"><img src="image/workthumbnails/06.1thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/06.2.gif" title="Topographic Survey"><img src="image/workthumbnails/06.2thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+      </tr>
+      <tr>
+        <td><div align="center"><a class="group3" href="image/work/06.3.gif" title="Topographic Survey"><img src="image/workthumbnails/06.3thumbnail.gif" alt="Topographic Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/07.1.gif" title="Interior Survey"><img src="image/workthumbnails/07.1thumbnail.gif" alt="Interior Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/07.2.gif" title="Interior Survey"><img src="image/workthumbnails/07.2thumbnail.gif" alt="Interior Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/07.3.gif" title="Interior Survey"><img src="image/workthumbnails/07.3thumbnail.gif" alt="Interior Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/07.4.gif" title="Interior Survey"><img src="image/workthumbnails/07.4thumbnail.gif" alt="Interior Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/08.2.gif" title="Final Asbuilt - Treo Subdivision"><img src="image/workthumbnails/08.2thumbnail.gif" alt="Final Asbuilt - Treo Subdivision" /></a></div></td>
+      </tr>
+      <tr>
+        <td><div align="center"><a class="group3" href="image/work/09.1.gif" title="Specific Purpose Survey - Plot Plan"><img src="image/workthumbnails/09.1thumbnail.gif" alt="Specific Purpose Survey - Plot Plan" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/09.2.gif" title="Specific Purpose Survey - Plot Plan"><img src="image/workthumbnails/09.2thumbnail.gif" alt="Specific Purpose Survey - Plot Plan" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/10.1.gif" title="Specific Purpose Survey - Form Board"><img src="image/workthumbnails/10.1thumbnail.gif" alt="Specific Purpose Survey - Form Board" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/11.1.gif" title="Specific Purpose Survey - Foundation"><img src="image/workthumbnails/11.1thumbnail.gif" alt="Specific Purpose Survey - Foundation" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/11.2.gif" title="Specific Purpose Survey - Foundation"><img src="image/workthumbnails/11.2thumbnail.gif" alt="Specific Purpose Survey - Foundation" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/12.1.gif" title="Final Survey"><img src="image/workthumbnails/12.1thumbnail.gif" alt="Final Survey" /></a></div></td>
+      </tr>
+      <tr>
+        <td><div align="center"><a class="group3" href="image/work/12.2.gif" title="Final Survey"><img src="image/workthumbnails/12.2thumbnail.gif" alt="Final Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/12.3.gif" title="Final Survey"><img src="image/workthumbnails/12.3thumbnail.gif" alt="Final Survey" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/13.1.gif" title="Tentative Plat"><img src="image/workthumbnails/13.1thumbnail.gif" alt="Tentative Plat" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/13.2.gif" title="Tentative Plat"><img src="image/workthumbnails/13.2thumbnail.gif" alt="Tentative Plat" /></a></div></td>
+        <td><div align="center"><a class="group3" href="image/work/13.3.gif" title="Tentative Plat"><img src="image/workthumbnails/13.3thumbnail.gif" alt="Tentative Plat" /></a></div></td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+  </div>
+  <div id="professionalrights">copyright (c) 2011 Miguel Pio</div>
+  <div id="professionalpowered">powered by Miguel Pio</div>
+</div>
+<script type="text/javascript">
+<!--
+
+var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", {imgDown:"../SpryAssets/SpryMenuBarDownHover.gif", imgRight:"../SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+</body>
+</html>
